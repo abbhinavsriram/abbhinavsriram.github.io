@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AS Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<style>
+    body {
+        background-color: black;
+    }
+    .header-content {
+        display: flex;
+        align-items: center;
+    }
+    .header-content img {
+				border-radius: 100%;
+        width: 250px;
+        height: 250px;
+        margin-right: 40px;
+				object-fit: cover; /* Ensures the image covers the entire area */
+				object-position: left;
+
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Two images per row */
+        gap: 10px; /* Space between images */
+				margin-left: 50px;
+    }
+    .gallery img {
+        border-radius: 10px; /* Rounded corners for images */
+        width: 180px; /* Adjust size as needed */
+        height: 180px; /* Adjust size as needed */
+        object-fit: cover; /* Ensures the image covers the entire area */
+    }
+		img:hover {
+        transform: scale(1.5); /* Zoom in on hover */
+    }
+	</style>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+        <header id="header" class="alt">
+					<div class="header-content">
+							<img src="images/hike.jpg" alt="Profile Picture">
+							<div>
+									<h1>Hello, I'm Abbhi.</h1>
+									<p>Computer Science Student, Part-time PM Intern, Undergraduate Researcher<br />
+									<ul class="icons">
+											<li><a href="https://www.linkedin.com/in/abbhinav-sriram/" class="icon brands fa-linkedin-in alt"><span class="label">LinkedIn</span></a></li>
+											<li><a href="mailto:abbhinav.sriram@ufl.edu" class="icon brands fa-envelope alt fa-rotate-90"><span class="label">Email</span></a></li>
+											<li><a href="https://github.com/abbhinavsriram" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+									</ul>
+							</div>
+					</div>
+				</header>
+
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">Experience</a></li>
+							<li><a href="#second">Projects</a></li>
+							<li><a href="#third">Involvement</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About Me</h2>
+										</header>
+										<p>I'm a CS student who's passionate about creating a positive impact using technology.
+											I've worked on projects that have spanned topics like healthcare, sustainability, and education.
+										</p>
+										<p>
+											When I'm not working on an exciting project (or classes), I enjoy reading (my favorite books are Shantaram, The Count of Monte Cristo, and Shōgun), working out, and watching Formula 1 or Cricket
+										</p>
+										<ul class="actions">
+										</ul>
+									</div>
+									<figure class="gallery-container">
+                    <div class="gallery">
+                        <img src="images/lake.jpg" alt="Favorite Image 1">
+                        <img src="images/liberty.jpg" alt="Favorite Image 2">
+                        <img src="images/deuce.jpg" alt="Favorite Image 3">
+                        <img src="images/city.jpg" alt="Favorite Image 4">
+                        <img src="images/eclipse.jpg" alt="Favorite Image 5">
+												<img style="object-position: bottom;" src="images/boston.jpeg" alt="Favorite Image 5">
+
+                    </div>
+                    <figcaption style="padding-left: 3em;">(Some of my favorite pictures in my camera roll)</figcaption>
+                </figure>
+							
+							</div>
+						</section>
+
+<!-- Experience -->
+<section id="first" class="main">
+	<div class="container">
+			<header class="major">
+					<h2>Experience</h2>
+			</header>
+			<div class="experience-item spotlight">
+					<span><img src="images/uplift.png" alt="Virtual Experiences Research Group" style="width: 300px; height: auto; padding-top: 5em; padding-right: 3em;" /></span>
+
+					<div class="content">
+							<a style="font-size: 25px;" href="joinuplift.co">UpLift</a>
+							<h4>Remote</h4>
+							<p><strong>Part-time Product Management Intern</strong><br>
+							Sep 2024 – Dec 2024</p>
+							<ul>
+									<li>Leading 4-person fellowship team in designing and developing features for online platform connecting users with therapists and psychiatrists</li>
+									<li>Working with Growth team to increase engagement among university students</li>
+									<li>Utilizing Jira and Trello for task tracking, and Figma for page design</li>
+							</ul>
+					</div>
+				</div>
+			<div class="experience-item spotlight">
+					<div class="content">
+						<a style="font-size: 25px;" href="joinuplift.co">Virtual Experiences Research Group</a>
+						<h4>Gainesville, FL</h4>
+							<p><strong>Undergraduate Research Assistant</strong><br>
+							May 2024 – Present</p>
+							<ul>
+									<li>Collaborated with 3-person team to develop mixed reality simulator for doctor-patient interactions</li>
+									<li>Connected Unreal Engine to Node.js server and integrated Dialogflow agent to enhance speech functionality</li>
+									<li>Logged user interactions with agent into CSV files</li>
+									<li>Currently designing Three.js web platform for hospitals to train AI virtual agents on health issues of their choice</li>
+							
+								</ul>
+					</div>
+					<span><img src="images/verg-pic.png" alt="Virtual Experiences Research Group" style="width: 300px; height: auto; padding-top: 5em; padding-left: 1em;" /></span>
+			</div>
+	</div>
+</section>
+
+<!-- Second Section -->
+<section id="second" class="main special">
+	<header class="major">
+			<h2>Projects</h2>
+			<p>Here are some of the projects I have worked on.</p>
+	</header>
+	<div class="projects-container">
+		<div class="project-tile">
+				<img src="images/sliding-tiles-pic.png" alt="Project Image 1">
+				<div class="project-description">
+						<h2>Sliding Tiles</h2>
+						<p>3x3 and 4x4 <b>Django-based</b> sliding puzzle problem solver using two different graph traversal methods</p>
+				</div>
+		</div>
+		<div class="project-tile">
+			<img src="images/sentimentor.jpg" alt="Project Image 1">
+			<div class="project-description">
+				<h2>SentiMentor</h2>
+				<p>Web app developed using <b>Pytorch and OpenCV</b> that allows instructors to measure student sentiment during a lecture through facial expressions</p>
+			</div>
+		</div>
+		<div class="project-tile">
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/LJm-kEsKjBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="project-description">
+				<h2>GradTalk</h2>
+				<p>Mobile app developed using <b>Flutter</b> that connects high school students with college mentors
+				who can give them advice on the college application process</p>
+
+		 </div>
+		</div>
+	</div>
+	<div class="projects-container">
+		<div class="project-tile">
+			<img src="images/reelthrift.png" alt="Project Image 1">
+			<div class="project-description">
+				<h2>Reel Thrift</h2>
+				<p>Online marketplace developed using <b>React.js and Firebase</b> that allows users to buy and sell used clothes	</p>
+		 </div>
+		</div>
+		<div class="project-tile">
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/Vmt5MRfRNKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="project-description">
+				<h2>Animal Care</h2>
+				<p>Game developed in <b>Unity</b> that leverages chatbots to educate pediatric patients about intimidating medical procedures</p>
+		 	</div>
+		</div>
+		
+</div>
+</section>
+
+						<!-- Get Started -->
+						<section id="third" class="main">
+							<div class="container">
+									<header class="major">
+											<h2>Involvement</h2>
+									</header>
+									<div class="experience-item spotlight">
+											<div class="content">
+													<a style="font-size: 25px;" href="https://www.dreamteameng.org">Dream Team Engineering<a>
+													<h4>Gainesville, FL</h4>
+													<p><strong>Sponsorships Director</strong><br>
+													Apr 2024 – Apr 2025</p>
+													<ul>
+															<li>
+																I'm responsible for bringing in corporate sponsors and organizing the 
+																annual design competition. So far, I've been able to bring in $8,000 from external sponsors
+																including NVIDIA, Autodesk, and Arthrex. Currently targeting October for the competition.
+															</li>
+															<li>Skills: Sponsor Relations, Events Planning</li>
+													</ul>
+													
+													<p><strong>Software Developer</strong><br>
+														Jan 2024 – Present</p>
+														<ul>
+																<li>
+																	Designing a SEIRD-based disease modelling software that can predict the spread of an 
+																	infection over a 2-week period to help hospitals prepare in the case of an outbreak.
+																</li>
+																<li>Skills: React.js, Python, Scikit-Learn, QGIS, Pandas</li>
+														</ul>
+											</div>
+											<span>
+												<img src="images/DTE_DRFT.png" alt="Dream Team Engineering" style="width: 400px; height: auto; padding-top: 5em;" />
+											</span>
+
+										</div>
+										<div class="experience-item spotlight">
+											<div class="content">
+													<a style="font-size: 25px;" href="https://ufproductspace.com">Product Space<a>
+													<h4>Gainesville, FL</h4>
+													<p><strong>Outreach Director</strong><br>
+													Mar 2024 – Apr 2025</p>
+													<ul>
+															<li>
+																Negotiated with 4 startups over the summer to secure fall PM interns
+																for 22 fellows.
+															</li>
+															<li>
+																Skills: Negotiation
+															</li>
+													</ul>
+													
+													<p><strong>Fellow</strong><br>
+														Feb – Apr 2024</p>
+														<ul>
+																<li>
+																	Participated in 8-week PM bootcamp to learn the basics of product management.
+																	At the end of the program, I created a capstone project where I pitched a re-design of the
+																	craigslist website to a Google Product Designer.
+																</li>
+																<li>
+																	It was my first time working on a feature pitch, and I learned a lot about how to use Figma for designing pages
+																	From the feedback I received, I learned the importance of using small features to solve pressing problems rather than ambitious redesigns
+																</li>
+																<li>
+																	<a href="https://docs.google.com/presentation/d/1SeFonpUVb852ML885ljWdBticj847IfqFGOs4LpKJN0/edit?usp=sharing">Link to Capstone Pitch<a>
+
+																</li>
+																<li>
+																	Skills: Product Management, Market Research, Design Thinking
+																</li>
+														</ul>
+											</div>
+											<span>
+												<img src="images/ps+logo.png" alt="Dream Team Engineering" style="width: 300px; height: auto; padding-top: 5em;" />
+											</span>
+
+
+										</div>
+										
+									<div class="experience-item spotlight">
+											<div class="content">
+												<a style="font-size: 25px;" href="https://ufsase.com/">Society of Asian Scientists and Engineers (SASE)</a>
+												<h4>Gainesville, FL</h4>
+													<p><strong>Software Engineer - SASE Engineering Team</strong><br>
+													Oct 2023 – May 2024</p>
+													<ul>
+														<li>
+															Worked with an 11-person team to develop software for a robot that can 
+															identify and collect trash around campus
+														</li>
+														<li>
+															I specifically worked on the depth perception software, where I created an algorithm
+															that used trignometry (given that the height of the robot was known) to calculate the distance
+															to a certain object identified by the camera.
+														</li>
+														<li>
+															Skills: OpenCV, Python, Robotics
+														</li>												
+													</ul>
+													<p><strong>Intern</strong><br>
+														Sep 2023 – May 2024</p>
+														<ul>
+															<li>
+																Collaborated with 10-person logistics team to coordinate catering with local businesses
+																for General Body Meetings with over 300 people in attendance within a $100 budget.
+															</li>
+															<li>
+																Planned event programming, handled outreach, and emceed at annual winter banquet for
+																170+ attendees
+															</li>
+															<li>
+																Skills: Event Management
+															</li>
+												
+							
+														</ul>
+											</div>
+											<span><img src="images/sase.png" alt="SASE picture" style="width: 300px; height: auto; padding-top: 5em; padding-left: 1em;" /></span>
+									</div>
+								<div class="experience-item spotlight">
+									<div class="content">
+										<a style="font-size: 25px;" href="https://flegacy.com/">Freshman Leadership Engineering Group</a>
+										<h4>Gainesville, FL</h4>
+											<p><strong>Outreach Committee Member</strong><br>
+											Sep 2023 – May 2024</p>
+											<ul>
+													<li>Collaborated with 12-person team to plan events that connected 70-person club with wider Gainesville community</li>
+													<li>Collected over 50 bags of trash through community drives, organized rally for local Special Olympics event, and volunteered at local nursing home</li>
+													<li> Worked with 10-person internal committee to plan catering and create an event itinerary for a Christmas internal event for ~40 members</li>
+											</ul>
+									</div>
+									<span><img src="images/fleg.png" alt="SASE picture" style="width: 300px; height: auto; padding-top: 5em; padding-left: 1em;" /></span>
+							</div>
+							</div>
+						</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Please don't hesitate to reach out to me if you have any questions!</h2>
+						</section>
+						<section>
+							<h2>Contact information</h2>
+							<dl class="alt">
+								<dt>Email</dt>
+								<dd><a href="mailto:abbhinav.sriram@ufl.edu">Official: abbhinav.sriram@ufl.edu</a></dd>
+								<dd><a href="mailto:abbhinav.sriram@gmail.com">Personal: abbhinav.sriram@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/abbhinav-sriram/" class="icon brands fa-linkedin-in alt"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:abbhinav.sriram@ufl.edu" class="icon brands fa-envelope alt fa-rotate-90"><span class="label">Email</span></a></li>
+								<li><a href="https://github.com/abbhinavsriram" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+						</ul>
+						</section>
+						
+						<p class="copyright">Credit to @ajlkn for the template from <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
