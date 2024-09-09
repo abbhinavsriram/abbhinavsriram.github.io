@@ -13,37 +13,60 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 		<style>
-    body {
-        background-color: black;
-    }
-    .header-content {
-        display: flex;
-        align-items: center;
-    }
-    .header-content img {
-				border-radius: 100%;
-        width: 250px;
-        height: 250px;
-        margin-right: 40px;
-				object-fit: cover; /* Ensures the image covers the entire area */
-				object-position: left;
+			body {
+					background-color: black;
+			}
+			.header-content {
+					display: flex;
+					align-items: center;
+			}
+			.header-content img {
+					border-radius: 100%;
+					width: 250px;
+					height: 250px;
+					margin-right: 40px;
+					object-fit: cover; /* Ensures the image covers the entire area */
+					object-position: left;
 
-    }
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Two images per row */
-        gap: 10px; /* Space between images */
-				margin-left: 50px;
-    }
-    .gallery img {
-        border-radius: 10px; /* Rounded corners for images */
-        width: 180px; /* Adjust size as needed */
-        height: 180px; /* Adjust size as needed */
-        object-fit: cover; /* Ensures the image covers the entire area */
-    }
-		.gallery img:hover {
-        transform: scale(1.5); /* Zoom in on hover */
-    }
+			}
+			.gallery {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 10px; /* Space between images */
+					margin-left: 50px;
+			}
+			.gallery img {
+					border-radius: 10px; /* Rounded corners for images */
+					width: 180px; /* Adjust size as needed */
+					height: 180px; /* Adjust size as needed */
+					object-fit: cover; /* Ensures the image covers the entire area */
+			}
+			.gallery img:hover {
+					transform: scale(1.5); /* Zoom in on hover */
+			}
+			@media (max-width: 600px) {
+			body {
+					background-color: black;
+			}
+			.header-content {
+					flex-direction: column; /* Stack items vertically */
+					align-items: center;
+			}
+			.header-content img {
+					width: 150px; /* Smaller image size */
+					height: 150px;
+					margin-right: 0; /* Remove right margin */
+					margin-bottom: 20px; /* Add bottom margin */
+			}
+			.gallery {
+					grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Adjust columns for smaller screens */
+					margin-left: 0; /* Remove left margin */
+			}
+			.gallery img {
+					width: 100px; /* Smaller image size */
+					height: 100px;
+			}
+	}
 	</style>
 	</head>
 	<body>
@@ -107,7 +130,7 @@
 												<img style="object-position: bottom;" src="images/boston.jpeg" alt="Favorite Image 5">
 
                     </div>
-                    <figcaption style="padding-left: 3em;">(Some of my favorite pictures in my camera roll)</figcaption>
+                    <figcaption style="text-align: center">(Some of my favorite pictures in my camera roll)</figcaption>
                 </figure>
 							
 							</div>
@@ -135,6 +158,8 @@
 					</div>
 				</div>
 			<div class="experience-item spotlight">
+					<span><img src="images/verg-pic.png" alt="Virtual Experiences Research Group" style="width: 300px; height: auto; padding-top: 5em; padding-left: 1em;" /></span>
+
 					<div class="content">
 						<a style="font-size: 25px;" href="https://verg.cise.ufl.edu/">Virtual Experiences Research Group</a>
 						<h4>Gainesville, FL</h4>
@@ -148,7 +173,6 @@
 							
 								</ul>
 					</div>
-					<span><img src="images/verg-pic.png" alt="Virtual Experiences Research Group" style="width: 300px; height: auto; padding-top: 5em; padding-left: 1em;" /></span>
 			</div>
 	</div>
 </section>
