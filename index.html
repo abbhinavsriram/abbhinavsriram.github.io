@@ -19,6 +19,8 @@
 			.header-content {
 					display: flex;
 					align-items: center;
+					justify-content: center; /* Center the header content */
+
 			}
 			.header-content img {
 					border-radius: 100%;
@@ -44,6 +46,40 @@
 			.gallery img:hover {
 					transform: scale(1.5); /* Zoom in on hover */
 			}
+			
+			/* Resume button styling */
+			.resume-btn {
+				background-color: #FFFFFF !important;
+				color: black !important;
+				padding: 8px 16px !important;
+				border-radius: 6px !important;
+				text-decoration: none !important;
+				font-weight: bold !important;
+				transition: all 0.3s ease !important;
+				border: 2px solid #FFFFFF !important;
+			}
+			
+			.resume-btn:hover {
+				background-color: transparent !important;
+				color: #FFFFFF !important;
+				transform: translateY(-2px) !important;
+			}
+			
+			/* Download button styling */
+			.button.primary {
+				background-color: black !important;
+				color: white !important;
+				border: 2px solid white !important;
+				font-weight: bold !important;
+				transition: all 0.3s ease !important;
+			}
+			
+			.button.primary:hover {
+				background-color: transparent !important;
+				color: #FFFFFF !important;
+				transform: translateY(-2px) !important;
+			}
+			
 			@media (max-width: 600px) {
 			body {
 					background-color: black;
@@ -80,12 +116,12 @@
 							<img src="images/hike.jpg" alt="Profile Picture">
 							<div>
 									<h1>Hello, I'm Abbhi.</h1>
-									<p>Computer Science Student, Part-time PM Intern, Undergraduate Researcher<br />
+									<p>Honors CS student @ UF<br />
 									<ul class="icons">
 											<li><a href="https://www.linkedin.com/in/abbhinav-sriram/" class="icon brands fa-linkedin-in alt"><span class="label">LinkedIn</span></a></li>
 											<li><a href="mailto:abbhinav.sriram@ufl.edu" class="icon brands fa-envelope alt fa-rotate-90"><span class="label">Email</span></a></li>
-											<li><a href="https://github.com/abbhinavsriram" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-									</ul>
+						<li><a href="https://github.com/abbhinavsriram" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+						<li><a href="documents/Sriram_Resume.pdf" target="_blank" class="resume-btn resume-icon"><span class="label">Resume</span></a></li>									</ul>
 							</div>
 					</div>
 				</header>
@@ -95,9 +131,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">Experience</a></li>
 							<li><a href="#second">Projects</a></li>
-							<li><a href="#third">Involvement</a></li>
 						</ul>
 					</nav>
 
@@ -118,6 +152,7 @@
 											When I'm not working on an exciting project (or classes), I enjoy reading (my favorite books are Shantaram, The Count of Monte Cristo, and Shōgun), working out, and watching Formula 1 or Cricket
 										</p>
 										<ul class="actions">
+											<li><a href="documents/Sriram_Resume.pdf" target="_blank" class="button primary icon solid fa-download">Download Resume</a></li>
 										</ul>
 									</div>
 									<figure class="gallery-container">
